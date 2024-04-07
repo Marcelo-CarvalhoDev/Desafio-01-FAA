@@ -1,0 +1,77 @@
+.caixa-login { 
+    width: 260px;
+    margin: auto;
+    height: auto;
+    border: 2px solid var(--cor-secundaria);
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.box-login {
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 22px;
+    margin-bottom: 1px;
+}
+
+.grupo {
+    margin-top: 10px;
+}
+
+.esqueci-minha-senha, a {
+    font-size: 10px;
+    font-style: italic;
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.esqueci-minha-senha {
+    text-align: right;
+/* Por que eu preciso fazer uma nova linha com essa classe só para escrever esse "text-align: right;"? Eu tentei escrever
+na classe de cima e não dava certo. */
+}
+
+label {
+    font-size: 14px;
+    color: var(--cor-primaria);
+}
+
+input, #botaoentrar {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 5px;
+}
+
+#botaoentrar {
+    margin-top: 10px;
+    background-color: var(--cor-primaria);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+
+}
+
+#botaoentrar:hover {
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+#loading {
+    width: 260px;
+    margin: auto;
+    margin-top: 150px;
+    display: none;
+}
+
+#botaocriar {
+    margin-top: 10px;
+    background-color: var(--cor-terciaria);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

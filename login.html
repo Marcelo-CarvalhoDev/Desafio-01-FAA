@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login v1</title>
+
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+</head>
+
+<body>
+    
+    <div class="caixa-login">
+
+        <div class="box-login">
+            <h1>Login</h1>
+        </div>
+
+        
+
+        <div class="grupo">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu email"> 
+        </div>
+
+        <div class="grupo">
+            <label for="senha">Senha:</label> 
+            <input type="password" id="senha" placeholder="Digite sua senha">
+        </div>
+
+        <div class="esqueci-minha-senha">
+            <a href="#">Esqueci minha senha</a>
+        </div>
+
+        <button id="botaoentrar">Entrar</button>
+        <button id="botaocriar">Criar nova conta</button>
+
+    </div>
+
+    <div id="loading"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="200" height="200" style="shape-rendering: auto; display: block; background: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M10 50A40 40 0 0 0 90 50A40 43 0 0 1 10 50" fill="#76b900" stroke="none">
+        <animateTransform attributeName="transform" type="rotate" dur="0.9090909090909091s" repeatCount="indefinite" keyTimes="0;1" values="0 50 51.5;360 50 51.5"></animateTransform>
+      </path><g></g></g></svg></div>
+      <script src="./JS.js/base.js"></script>
+    <script src="JS.js/login.js"></script>
+</body>
+
+</html>

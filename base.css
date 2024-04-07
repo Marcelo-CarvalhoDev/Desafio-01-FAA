@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --cor-primaria: #76b900;
+    --cor-secundaria: #363438;
+    --cor-terciaria: #5865F2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+#btn-adicionar {
+    margin-left: -11px;
+}
+/* OBS: Não consegui enquadrar o button do jeito que o WEB falou, entao "dei meu jeito"
+ajeitando dentro do css.base, "famoso nao ta certo mas deu certo". */
+
+
+#clientes {
+    margin-left: -22px;
+}
+
+
+/* Override */
+
+/* .btn-primary {
+    background-color: var(--cor-primaria);
+} */

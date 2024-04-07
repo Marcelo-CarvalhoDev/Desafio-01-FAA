@@ -1,0 +1,10 @@
+
+
+/* Fazendo um OVERRIDE (sobresscrita) do código no CSS do BS */
+
+
+.modal-dialog {
+    max-width: 600px
+}
+
+/* Aí no caso é pessoal vai vendo qual fica melhor a seu gosto, ou a gosto do cliente */
